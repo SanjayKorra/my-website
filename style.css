@@ -1,0 +1,89 @@
+body {
+    margin: 0;
+    font-family: Arial;
+}
+
+/* NAVBAR */
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+    background: white;
+}
+
+.logo {
+    font-weight: bold;
+    font-size: 20px;
+}
+
+nav a {
+    margin: 10px;
+    text-decoration: none;
+    color: black;
+}
+
+.btn {
+    background: #1b2a49;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+}
+
+/* HERO */
+.hero {
+    position: relative;
+}
+
+.hero img {
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
+}
+
+.hero-text {
+    position: absolute;
+    top: 40%;
+    left: 10%;
+    color: white;
+}
+
+/* BOOKING */
+.booking {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    padding: 20px;
+}
+
+/* ABOUT */
+.about {
+    text-align: center;
+    padding: 40px;
+}
+
+/* ROOMS */
+.rooms {
+    padding: 20px;
+    text-align: center;
+}
+
+.room-container {
+    display: flex;
+    overflow-x: auto;
+}
+
+.room {
+    margin: 10px;
+}
+
+.room img {
+    width: 200px;
+    height: 250px;
+}
+
+/* EXPERIENCE */
+.experience {
+    padding: 40px;
+    background: #f2f2f2;
+    text-align: center;
+}
